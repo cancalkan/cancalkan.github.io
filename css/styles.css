@@ -109,8 +109,8 @@ h3 {
   padding-left: 6px;
 }
 .btn-default {
-  background: #3b658a;
-  color: #fafafa;
+  background: #3b658a !important;
+  color: #fafafa !important;
   border: #3b658a;
 }
 .btn-default:hover {
