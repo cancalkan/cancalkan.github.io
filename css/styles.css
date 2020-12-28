@@ -1031,4 +1031,88 @@ textarea.form-control {
 .my-float{
 	margin-top:16px;
 }
-
+.switch-lang p{
+  color:white;
+}
+.switch-lang {
+ background: #3b658a !important;
+  width: 100px;
+  text-align: left;
+  cursor: pointer;
+  z-index: 50;
+  position: absolute;
+  /* top: 20px; */
+  right: 250px;
+  
+}
+.switch-lang:hover .lang-dropdown {
+  display: block;
+}
+.switcher-link {
+  color: #fff;
+}
+.switcher-link:hover {
+  color: #fff;
+}
+.current-lang {
+  /* background: #34495e; */
+  padding: 3px 5px 0px 5px;
+  border-radius: 2px;
+}
+.lang-flag {
+  width: 20px;
+  display: inline-block;
+  padding-top:3px;
+}
+.lang-text {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: top;
+  margin-top: 2px;
+}
+.lang-dropdown {
+  display: none;
+  background: #3b658a;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+.selecting-lang {
+  padding: 3px 5px 3px 3px;
+  cursor: pointer;
+}
+.selecting-lang:hover {
+  background: #22313f;
+}
+ul > :first-child {
+  border-radius: 5px 5px 0px 0px;
+}
+ul > :last-child {
+  border-radius: 0px 0px 5px 5px;
+}
+li {
+  list-style-type: none;
+}
+.menu-arrow {
+  display: inline-block;
+  width: 10px;
+  margin-left: 10px;
+  vertical-align: top;
+  margin-top: 6px;
+}
+.lang-text a{
+  color:white !important;
+}
+.turkey-flag{
+  padding-left:2px;
+  zoom: 1.1;
+}
+@media (max-width:400px){
+  .switch-lang{
+    right:220px;
+  }
+}
+@media (max-width:350px){
+  .switch-lang{
+    display:none;
+  }
+}
