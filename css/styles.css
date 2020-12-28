@@ -1106,9 +1106,9 @@ li {
   padding-left:2px;
   zoom: 1.1;
 }
-@media (max-width:400px){
+@media (max-width:600px){
   .switch-lang{
-    right:220px;
+    right:230px;
   }
 }
 @media (max-width:350px){
