@@ -1083,6 +1083,12 @@ textarea.form-control {
 .selecting-lang:hover {
   background: #22313f;
 }
+.current-lang{
+  max-height: 30px;
+}
+.selecting-lang{
+  min-height: 30px;
+}
 ul > :first-child {
   border-radius: 5px 5px 0px 0px;
 }
