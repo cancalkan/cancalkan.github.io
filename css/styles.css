@@ -192,6 +192,7 @@ p {
     font-size: 54px;
   }
 }
+
 .intro-title2 {
   font-size: 18px;
   color: #777777;
@@ -204,6 +205,9 @@ p {
     font-size: 20px;
     text-align: left;
   }
+}
+.kaancan span{
+  font-size: 28px;
 }
 .section-title {
   text-transform: uppercase;
@@ -1123,7 +1127,7 @@ li {
   }
 }
 .intro-title1{
-  font-size:45px;
+  font-size:35px;
 }
 .footerlinkcan {
   color:white !important;
